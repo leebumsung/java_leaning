@@ -5,6 +5,8 @@ public class Applicaton {
 	public static void main(String[] args) {
 		
 		MemberDTO member = new MemberDTO();
+		System.out.println(member);
+		
 		member.setId("001");
 		member.setPwd("pass001");
 		member.setName("홍길동");
