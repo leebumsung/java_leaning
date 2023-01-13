@@ -13,23 +13,6 @@ public class EmployeeDTO {
 	private String phone;
 	private String address;
 	
-	public EmployeeDTO(int number, String name, 
-			String dept, String job, int age, 
-			char gender, int salary, double bonusPoint,
-			String phone, String address) 
-		{
-		this.number = number;
-		this.name = name;
-		this.dept = dept;
-		this.job = job;
-		this.age = age;
-		this.gender = gender;
-		this.salary = salary;
-		this.bonusPoint = bonusPoint;
-		this.phone = phone;
-		this.address = address;
-		}
-	
 	public void setNumber(int number) {
 		this.number = number;
 	}

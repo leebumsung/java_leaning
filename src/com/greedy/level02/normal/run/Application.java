@@ -31,6 +31,9 @@ public class Application {
 		BookDTO bookdto3 = new BookDTO("자바배우기","더존", "홍길동", 5000, 5.5);
 		System.out.println(bookdto3.getInform());
 		
+		BookDTO book0 = new BookDTO();
+		book0.setTitle("최강자바");
+		System.out.println("바꾼후 타이틀 : " + book0.getTitle());
 		
 	}
 }
