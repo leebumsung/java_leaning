@@ -10,18 +10,6 @@ public class MemberDTO {
     private String phone;
     private String email;
     
-    public MemberDTO() {}
-    
-    public MemberDTO(String id, String pwd, String name, int age, char gender, String phone, String email) {
-    	this.id = id;
-    	this.pwd = pwd;
-    	this.name = name;
-    	this.age = age;
-    	this.gender = gender;
-    	this.phone = phone;
-    	this.email = email;
-    }
-    
     public void setId(String id) {
     	this.id = id;
     }
